@@ -11,14 +11,13 @@ Running
 -------
 <pre><code>mvn spring-boot:run</code></pre>
 
-Endpoints
----------
+Usage
+-----
 
-The ProductResource endpoint returns the JSON representation of the ProductDto:
-
+Test the ProductResource endpoint:
 <pre><code>http://localhost:8080/api/product</code></pre>
 
-Response:
+You receive the following JSON response:
 <pre><code>{"productName":"Test product","price":15.0}</code></pre>
 
 Integration test with rest-assured
