@@ -8,10 +8,10 @@ import org.glassfish.jersey.server.ResourceConfig;
 @Component
 public class JerseyConfig extends ResourceConfig {
 
-    public static final String ENDPOINT_PACKAGES = "com.bs.rest.endpoint";
+    public static final String ENDPOINT_PACKAGE = "com.bs.rest.endpoint";
 
     public JerseyConfig() {
-        packages(ENDPOINT_PACKAGES);
+        packages(ENDPOINT_PACKAGE);
         register(ProductResource.class);
         register(LoggingFilter.class);
     }
