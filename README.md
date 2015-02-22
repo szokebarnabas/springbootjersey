@@ -15,10 +15,12 @@ Usage
 -----
 
 Test the ProductResource endpoint:
-<pre><code>http://localhost:8080/api/product</code></pre>
+<pre><code>curl http://localhost:8080/api/product</code></pre>
 
 You receive the following JSON response:
-<pre><code>{"productName":"Test product","price":15.0}</code></pre>
+```json
+{"productName":"Test product","price":15.0}
+```
 
 Integration test with rest-assured
 ----------------------------------
